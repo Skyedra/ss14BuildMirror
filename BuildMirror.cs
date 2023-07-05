@@ -19,7 +19,7 @@ public class BuildMirror
 
 	private const int MINIMUM_FILES_TO_CONSIDER_GOOD_MANIFEST = 2;
 
-	public static void Main()
+	public static void Mirror()
 	{
 		// Download manifest
 		string buildManifest = "";
